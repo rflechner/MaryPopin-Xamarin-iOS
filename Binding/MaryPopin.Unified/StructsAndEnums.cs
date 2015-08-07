@@ -1,9 +1,9 @@
-﻿using MonoTouch.ObjCRuntime;
+﻿using ObjCRuntime;
 
-namespace MaryPopin
+namespace MaryPopin.Unified
 {
 	[Native]
-	public enum BKTPopinTransitionStyle : int
+	public enum BKTPopinTransitionStyle : ulong
 	{
 		/// <summary>
 		/// When the view controller is presented, its view slide in the parent view controller and slide out on dismiss.
@@ -36,7 +36,7 @@ namespace MaryPopin
 	}
 
 	[Native]
-	public enum BKTPopinTransitionDirection : int
+	public enum BKTPopinTransitionDirection : ulong
 	{
 		/// <summary>
 		/// Presentation transition will start from the bottom of the parent view. Respectively, dismiss transition will end to the bottom of the parent view.
@@ -57,7 +57,7 @@ namespace MaryPopin
 	}
 
 	[Native]
-	public enum BKTPopinOption : uint
+	public enum BKTPopinOption : ulong
 	{
 		/// <summary>
 		/// Default behaviour.
@@ -86,7 +86,7 @@ namespace MaryPopin
 	}
 
 	[Native]
-	public enum BKTPopinAlignementOption : int
+	public enum BKTPopinAlignementOption : ulong
 	{
 		/// <summary>
 		/// Popin will be centered in container. Default.

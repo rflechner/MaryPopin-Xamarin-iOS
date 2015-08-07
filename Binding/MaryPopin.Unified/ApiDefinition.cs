@@ -1,10 +1,10 @@
 ﻿using System.Drawing;
-using MonoTouch.Foundation;
-using MonoTouch.UIKit;
-using MonoTouch.ObjCRuntime;
+using Foundation;
+using UIKit;
+using ObjCRuntime;
 using System;
 
-namespace MaryPopin
+namespace MaryPopin.Unified
 {
 	[BaseType(typeof(NSObject))]
 	interface BKTBlurParameters
